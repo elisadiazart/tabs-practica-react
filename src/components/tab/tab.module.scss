@@ -1,0 +1,14 @@
+.tab{
+    border-right: 1px solid black;
+    padding: 15px 0;
+    cursor: pointer;
+
+    &:nth-child(3){
+        border: 0;
+    }
+}
+
+
+.active{
+    background-color: red;
+}
